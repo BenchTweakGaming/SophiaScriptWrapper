@@ -1,0 +1,54 @@
+﻿<Window x:Class="SophiaScriptWrapper.Info"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:ui="http://schemas.modernwpf.com/2019"
+        ui:WindowHelper.UseModernWindowStyle="True"
+        xmlns:local="clr-namespace:SophiaScriptWrapper"
+        mc:Ignorable="d"
+        ResizeMode="CanMinimize"
+        WindowStyle="ToolWindow"
+        
+        Title="Information" Height="130" Width="360"
+>
+    <Grid>
+        <StackPanel>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="25"/>
+                    <RowDefinition Height="25"/>
+                    <RowDefinition Height="25"/>
+
+
+                </Grid.RowDefinitions>
+                <TextBlock Grid.Row="0" Grid.Column="0" Name="tblckHeader"    
+                Text="Information" FontSize="14" FontFamily="Verdana" FontWeight="Bold"  
+                TextAlignment="Center" VerticalAlignment="Top" Margin="0,2"></TextBlock>
+                <!--
+                <TextBlock Grid.Row="1" Grid.Column="0" Name="tblckSubHeaderOne"
+                           Text="Current OS" FontSize="12" FontFamily="Verdana" FontWeight="Bold"  
+                           TextAlignment="Center" VerticalAlignment="Top" Margin="0,2" Foreground="#FF2A6B9F"></TextBlock>
+                <TextBlock Grid.Row="2" Grid.Column="0" Name="tblckCurrentOS" 
+                           Text="Current OS" FontSize="10" FontFamily="Verdana" TextAlignment="Center" 
+                           VerticalAlignment="Top" Margin="0,2"></TextBlock>
+-->
+                <TextBlock Grid.Row="1" Grid.Column="0" Name="tblckSubHeaderTwo" 
+                           Text="Which 'Sophia Script for Windows' you need" FontSize="12" FontFamily="Verdana" FontWeight="Bold"
+                           TextAlignment="Center" VerticalAlignment="Top" Margin="0,2" Foreground="#FF2A6B9F"></TextBlock>
+                <TextBlock Grid.Row="2" Grid.Column="0" Name="tblckWhichSophiaScript"
+                           Text="Which Sophia Script" FontSize="10" FontFamily="Verdana"   
+                           TextAlignment="Center" VerticalAlignment="Top" Margin="0,2"></TextBlock>
+                
+
+
+            </Grid>
+        </StackPanel>
+
+    </Grid>
+</Window>

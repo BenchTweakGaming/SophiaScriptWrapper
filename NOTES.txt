@@ -1,0 +1,1 @@
+Substring for new lines look for new lines instead of substring.  if two new lines then delete one

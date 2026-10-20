@@ -1,0 +1,152 @@
+﻿<Window x:Class="SophiaScriptWrapper.About"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:ui="http://schemas.modernwpf.com/2019"
+        ui:WindowHelper.UseModernWindowStyle="True"
+        xmlns:local="clr-namespace:SophiaScriptWrapper"
+        mc:Ignorable="d"
+        ResizeMode="CanMinimize"        
+        WindowStyle="ToolWindow"
+        
+        Title="About" Height="220" Width="270"
+>
+    <Viewbox Name="vbAboutWindow">
+        <Grid Height="200" Width="270"  HorizontalAlignment="Stretch">
+            <StackPanel>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="10*" />
+                        <ColumnDefinition Width="10*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="20"/>
+                        <!--<RowDefinition Height="20"/>-->
+                    </Grid.RowDefinitions>
+                    <TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Name="TextBlock2"    
+                Text="Sophia Script Wrapper" FontSize="14" FontFamily="Verdana" FontWeight="Bold"  
+                TextAlignment="Center" VerticalAlignment="Top" Margin="0,2"></TextBlock>
+                    <TextBlock Grid.Row="1" HorizontalAlignment="Center">
+                    <Hyperlink NavigateUri="https://github.com/farag2/Windows-10-Sophia-Script" TextDecorations="None" RequestNavigate="Hyperlink_RequestNavigate">
+                        <Image Source="/Resources/sophia_logo.png" Height="60" Margin="0,0,0,0"></Image>
+                    </Hyperlink>
+                    </TextBlock>
+                    <TextBlock Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" Margin="0,0,0,0">
+                    <Hyperlink NavigateUri="https://benchtweakgaming.com/sophia-script-wrapper-for-sophia-script-for-windows/" TextDecorations="None" RequestNavigate="Hyperlink_RequestNavigate">
+                        <Image Source="/Resources/BTGV2LOGORED.png" Height="60" Margin="17,0,0,0"></Image>
+                    </Hyperlink>
+                    </TextBlock>
+                    <DockPanel Grid.Row="2" Grid.ColumnSpan="2">
+                        <TextBlock Name="TextBlockWithHyperlink" TextAlignment="Right" FontSize="13" Grid.Column="0" VerticalAlignment="Top" Margin="25,0,0,0">
+                        <Hyperlink NavigateUri="https://github.com/farag2/Sophia-Script-for-Windows" RequestNavigate="Hyperlink_RequestNavigate">
+                            Sophia Script
+                        </Hyperlink>
+                        </TextBlock>
+                        <TextBlock HorizontalAlignment="Left" VerticalAlignment="Bottom">
+                    <Hyperlink NavigateUri="https://github.com/farag2/Windows-10-Sophia-Script" TextDecorations="None" RequestNavigate="Hyperlink_RequestNavigate">
+                    <Image Height="14" >
+                        <Image.Source>
+                            <DrawingImage>
+                                <DrawingImage.Drawing>
+                                    <DrawingGroup ClipGeometry="M-0.2,-1 V333 H378.8 V-0.2 H-1 Z">
+                                        <DrawingGroup.Transform>
+                                            <TranslateTransform X="0.2" Y="1" />
+                                        </DrawingGroup.Transform>
+                                        <GeometryDrawing Brush="#FF9CDAF1" Geometry="F1 M379,334z M0,0z M296.94,295.43C296.94,315.963 249.38,332.606 190.72,332.606 132.05,332.606 84.49,315.963 84.49,295.43 84.49,274.897 132.048,258.25 190.72,258.25 249.38,258.25 296.94,274.9 296.94,295.43z" />
+                                        <GeometryDrawing Brush="#FF7DBBE6" Geometry="F1 M379,334z M0,0z M161.85,331.22L161.85,304.72C161.85,301.298 161.231,298.436 160.197,296.019 167.05,301.341 167.513,314.714 167.513,314.714L167.513,331.718C173.679,332.199,180.047,332.491,186.566,332.579L186.394,315.659C185.45,292.529 165.625,289.698 165.625,289.698 158.38,288.053 158.488,291.689 159.216,294.038 152.108,281.916 133.058,283.482 133.058,283.482 126.447,285.839 132.583,290.089 132.583,290.089 142.97,293.864 143.913,305.194 143.913,305.194L143.913,328.816C149.633,329.796,155.623,330.606,161.853,331.216z" />
+                                        <GeometryDrawing Brush="#FF7DBBE6" Geometry="F1 M379,334z M0,0z M245.4,283.48C245.4,283.48 226.347,281.914 219.24,294.039 219.968,291.689 220.079,288.05 212.832,289.696 212.832,289.696 193.008,292.528 192.064,315.657L191.89,332.603C198.399,332.578,204.766,332.349,210.944,331.932L210.944,314.713C210.944,314.713 211.409,301.34 218.26,296.018 217.226,298.435 216.607,301.296 216.607,304.719L216.607,331.494C222.821,330.95,228.818,330.215,234.544,329.306L234.544,305.193C234.544,305.193 235.488,293.863 245.874,290.088 245.874,290.078 252.004,285.828 245.394,283.468z" />
+                                        <GeometryDrawing Brush="#FF000000" Geometry="F1 M379,334z M0,0z M378.18,141.32L378.46,139.931C347.298,133.7 315.319,133.637 295.973,134.441 299.151,122.99 300.107,109.814 300.107,95.121 300.107,74.048 292.19,57.19 279.337,44.362 281.583,37.112 284.583,21.011 276.341,0.39899999999998 276.341,0.39899999999998 261.8,-4.21800000000002 228.91,17.795 216.026,14.575 202.314,12.985 188.582,12.985 173.473,12.985 158.206,14.909 143.967,18.815 110.027,-4.33900000000002 95.044,0.403999999999982 95.044,0.403999999999982 85.264,24.861 91.311,42.97 93.148,47.467 81.653,59.873 74.635,75.71 74.635,95.126 74.635,109.784 76.304,122.934 80.38,134.363 60.869,133.653 30.057,133.926 0.007000000000005,139.935L0.283000000000005,141.324C30.514,135.278 61.52,135.068 80.912,135.802 81.81,138.168 82.811,140.463 83.933,142.681 64.756,143.299 32.011,145.743 0.63000000000001,154.596L1.01700000000001,155.956C32.646,147.038 65.675,144.655 84.666,144.074 96.124,165.432 118.714,179.226 158.902,183.558 153.198,187.391 147.379,193.907 145.021,204.932 137.248,208.65 112.642,217.725 97.879,192.333 97.879,192.333 89.615,177.224 73.797,176.041 73.797,176.041 58.453,175.806 72.738,185.603 72.738,185.603 83.005,190.441 90.089,208.622 90.089,208.622 99.33,239.632 143.924,229.683L143.924,261.715C143.924,261.715 142.981,273.045 132.594,276.82 132.594,276.82 126.457,281.069 133.069,283.426 133.069,283.426 161.861,285.787 161.861,262.188L161.861,227.259C161.861,227.259,160.719,213.407,167.524,208.592L167.524,265.963C167.524,265.963 167.054,279.651 159.973,284.844 159.973,284.844 155.25,293.338 165.636,290.981 165.636,290.981 185.46,288.149 186.405,265.02L186.854,206.96 191.619,206.96 192.072,265.02C193.015,288.149 212.84,290.981 212.84,290.981 223.223,293.338 218.503,284.844 218.503,284.844 211.423,279.651 210.952,265.963 210.952,265.963L210.952,209.087C217.753,214.383,216.615,227.258,216.615,227.258L216.615,262.187C216.615,285.787 245.408,283.425 245.408,283.425 252.014,281.068 245.882,276.819 245.882,276.819 235.496,273.044 234.552,261.714 234.552,261.714L234.552,215.928C234.552,198.074 227.034,188.619 219.682,183.628 262.541,179.378 283.108,165.539 292.585,144.037 311.358,144.553 345.142,146.84 377.458,155.956L377.842,154.596C345.711,145.533 312.15,143.188 293.187,142.636 294.085,140.464 294.869,138.205 295.565,135.881 314.815,135.081 346.945,135.091 378.225,141.341z" />
+                                        <GeometryDrawing Brush="#FFF4CBB2" Geometry="F1 M379,334z M0,0z M258.19,94.132C267.421,102.495 272.821,112.594 272.821,123.475 272.821,174.279 234.949,175.656 188.236,175.656 141.515,175.656 103.647,168.621 103.647,123.475 103.647,112.666 108.971,102.63 118.088,94.301 133.296,80.42 159.034,87.77 188.235,87.77 217.305,87.766 242.955,80.341 258.185,94.127z" />
+                                        <GeometryDrawing Brush="#FFFFFFFF" Geometry="F1 M379,334z M0,0z M160.1,126.06C160.1,140.054 152.22,151.396 142.5,151.396 132.78,151.396 124.9,140.054 124.9,126.06 124.9,112.068 132.78,100.73 142.5,100.73 152.22,100.74 160.1,112.07 160.1,126.06z" />
+                                        <GeometryDrawing Brush="#FFFFFFFF" Geometry="F1 M379,334z M0,0z M254.43,126.06C254.43,140.054 246.55,151.396 236.83,151.396 227.11,151.396 219.23,140.054 219.23,126.06 219.23,112.068 227.11,100.73 236.83,100.73 246.55,100.74 254.43,112.07 254.43,126.06z" />
+                                        <GeometryDrawing Brush="#FFAD5C51" Geometry="F1 M379,334z M0,0z M154.46,126.38C154.46,135.708 149.2,143.267 142.726,143.267 136.252,143.267 130.993,135.708 130.993,126.38 130.993,117.049 136.248,109.486 142.726,109.486 149.196,109.486 154.456,117.046 154.456,126.376z" />
+                                        <GeometryDrawing Brush="#FFAD5C51" Geometry="F1 M379,334z M0,0z M248.88,126.38C248.88,135.708 243.62,143.267 237.146,143.267 230.672,143.267 225.413,135.708 225.413,126.38 225.413,117.049 230.668,109.486 237.146,109.486 243.616,109.486 248.876,117.046 248.876,126.376z" />
+                                        <GeometryDrawing Brush="#FFAD5C51" Geometry="F1 M379,334z M0,0z M188.5,148.56A4.401,4.401,0,1,0,188.5001,148.56" />
+                                        <GeometryDrawing Brush="#FFAD5C51" Geometry="F1 M379,334z M0,0z M178.23,159.69C177.97,158.952 178.358,158.145 179.091,157.885 179.828,157.625 180.637,158.013 180.896,158.746 182.03,161.944 185.063,164.092 188.447,164.092 191.831,164.092 194.864,161.945 195.998,158.746 196.258,158.008 197.065,157.625 197.803,157.885 198.541,158.145 198.924,158.952 198.665,159.69 197.136,164.014 193.026,166.919 188.447,166.919 183.868,166.919 179.767,164.029 178.237,159.699z" />
+                                        <GeometryDrawing Brush="#FFC3E4D8" Geometry="F1 M379,334z M0,0z M80.641,179.82C80.641,180.994 79.265,181.942 77.571,181.942 75.878,181.942 74.501,180.994 74.501,179.82 74.501,178.645 75.878,177.693 77.571,177.693 79.265,177.693 80.641,178.643 80.641,179.823z" />
+                                        <GeometryDrawing Brush="#FFC3E4D8" Geometry="F1 M379,334z M0,0z M89.041,184.54C89.041,185.714 87.665,186.662 85.971,186.662 84.278,186.662 82.901,185.714 82.901,184.54 82.901,183.365 84.278,182.413 85.971,182.413 87.665,182.413 89.041,183.363 89.041,184.543z" />
+                                        <GeometryDrawing Brush="#FFC3E4D8" Geometry="F1 M379,334z M0,0z M94.234,190.68C94.234,191.854 92.858,192.802 91.164,192.802 89.471,192.802 88.094,191.854 88.094,190.68 88.094,189.505 89.471,188.553 91.164,188.553 92.858,188.553 94.234,189.503 94.234,190.683z" />
+                                        <GeometryDrawing Brush="#FFC3E4D8" Geometry="F1 M379,334z M0,0z M98.954,197.76C98.954,198.934 97.578,199.882 95.884,199.882 94.191,199.882 92.814,198.934 92.814,197.76 92.814,196.585 94.191,195.633 95.884,195.633 97.578,195.633 98.954,196.583 98.954,197.763z" />
+                                        <GeometryDrawing Brush="#FFC3E4D8" Geometry="F1 M379,334z M0,0z M104.142,204.37C104.142,205.544 102.766,206.492 101.072,206.492 99.379,206.492 98.002,205.544 98.002,204.37 98.002,203.195 99.379,202.243 101.072,202.243 102.766,202.243 104.142,203.193 104.142,204.373z" />
+                                        <GeometryDrawing Brush="#FFC3E4D8" Geometry="F1 M379,334z M0,0z M111.232,210.03C111.232,211.204 109.856,212.152 108.162,212.152 106.469,212.152 105.092,211.204 105.092,210.03 105.092,208.855 106.469,207.903 108.162,207.903 109.856,207.903 111.232,208.853 111.232,210.033z" />
+                                        <GeometryDrawing Brush="#FFC3E4D8" Geometry="F1 M379,334z M0,0z M121.142,213.81C121.142,214.984 119.766,215.932 118.072,215.932 116.379,215.932 115.002,214.984 115.002,213.81 115.002,212.635 116.379,211.683 118.072,211.683 119.766,211.683 121.142,212.633 121.142,213.813z" />
+                                        <GeometryDrawing Brush="#FFC3E4D8" Geometry="F1 M379,334z M0,0z M131.012,213.81C131.012,214.984 129.636,215.932 127.942,215.932 126.249,215.932 124.872,214.984 124.872,213.81 124.872,212.635 126.249,211.683 127.942,211.683 129.636,211.683 131.012,212.633 131.012,213.813z" />
+                                        <GeometryDrawing Brush="#FFC3E4D8" Geometry="F1 M379,334z M0,0z M141.022,212.17C141.022,213.344 139.646,214.292 137.952,214.292 136.259,214.292 134.882,213.344 134.882,212.17 134.882,210.995 136.259,210.043 137.952,210.043 139.646,210.043 141.022,210.993 141.022,212.173z" />
+                                        <GeometryDrawing Brush="#FF9CDAF1" Geometry="F1 M379,334z M0,0z M69.369,186.12L66.303,196.803C66.303,196.803 65.503,200.664 69.143,201.349 72.943,201.275 72.629,197.722 72.366,196.568z" />
+                                    </DrawingGroup>
+                                </DrawingImage.Drawing>
+                            </DrawingImage>
+                        </Image.Source>
+                    </Image>
+                        </Hyperlink>
+                        </TextBlock>
+                        <TextBlock Name="TextBlockWithHyperlink2" FontSize="13" Margin="12,0,0,0">
+                        <Hyperlink NavigateUri="https://benchtweakgaming.com/sophia-script-wrapper-for-sophia-script-for-windows/"
+                                RequestNavigate="Hyperlink_RequestNavigate">
+                                BenchTweakGaming
+                        </Hyperlink>
+                        </TextBlock>
+                    </DockPanel>
+                    <DockPanel Grid.Row="3"  Grid.ColumnSpan="2" >
+                        <TextBlock VerticalAlignment="Center" Margin="30,0,0,0">
+                    <Hyperlink NavigateUri="https://t.me/SophiaNews" TextDecorations="None" RequestNavigate="Hyperlink_RequestNavigate">
+                        <Image Source="/Resources/telegram_white_icon.png" Height="14"></Image>
+                    </Hyperlink>
+                        </TextBlock>
+                        <TextBlock VerticalAlignment="Center" FontSize="13" Margin="3,0,0,0">
+                        <Hyperlink NavigateUri="https://t.me/SophiaNews"
+                                RequestNavigate="Hyperlink_RequestNavigate">
+                                Sophia News
+                        </Hyperlink>
+                        </TextBlock>
+                        <TextBlock VerticalAlignment="Center" Margin="30,0,0,0">
+                    <Hyperlink NavigateUri="https://t.me/Sophia_Chat" TextDecorations="None" RequestNavigate="Hyperlink_RequestNavigate">
+                        <Image Source="/Resources/telegram_white_icon.png" Height="14"></Image>
+                    </Hyperlink>
+                        </TextBlock>
+                        <TextBlock VerticalAlignment="Center" FontSize="13" Margin="3,0,0,0">
+                        <Hyperlink NavigateUri="https://t.me/Sophia_Chat"
+                                RequestNavigate="Hyperlink_RequestNavigate">
+                                Sophia Chat
+                        </Hyperlink>
+                        </TextBlock>
+                    </DockPanel>
+                    <StackPanel Grid.Row="4"  Grid.ColumnSpan="2" HorizontalAlignment="Center" Orientation="Horizontal">
+                        <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <Hyperlink NavigateUri="https://discord.gg/sSryhaEv79" TextDecorations="None" RequestNavigate="Hyperlink_RequestNavigate">
+                        <Image Source="/Resources/discord_icon.png" Height="14"></Image>
+                    </Hyperlink>
+                        </TextBlock>
+                        <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="13" Margin="3,0,0,0">
+                        <Hyperlink NavigateUri="https://discord.gg/sSryhaEv79"
+                                RequestNavigate="Hyperlink_RequestNavigate">
+                                Discord
+                        </Hyperlink>
+                        </TextBlock>
+                    </StackPanel>
+                    <TextBlock Grid.Row="5" Grid.ColumnSpan="2" Name="tbCopyright" Height="20" Width="200"  
+                Text="© 2020 — 2025" 
+                Margin="0,0,0,0" VerticalAlignment="Top"  
+                FontSize="12" FontFamily="Verdana" 
+                TextWrapping="Wrap" TextAlignment="Center" Padding="5">
+                    </TextBlock>
+                    <!--
+                <TextBlock Grid.Row="6" Grid.ColumnSpan="2" Name="tbVersion" Height="20" Width="200"  
+Text="v2.8.0" 
+Margin="0,0,0,0" VerticalAlignment="Top"  
+FontSize="12" FontFamily="Verdana" 
+TextWrapping="Wrap" TextAlignment="Center" Padding="5">
+                </TextBlock>-->
+
+                </Grid>
+            </StackPanel>
+
+        </Grid>
+    </Viewbox>
+</Window>
