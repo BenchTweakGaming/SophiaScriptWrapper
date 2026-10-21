@@ -8,7 +8,7 @@ Thanks [Microsoft](https://www.microsoft.com/en-ca) for making [Windows](https:/
 
 I thank [Bill Gates](https://en.wikipedia.org/wiki/Bill_Gates) and [Paul Allen](https://en.wikipedia.org/wiki/Paul_Allen) making Microsoft Windows.
 
-I thank everyone that helped me. [farag2](https://github.com/farag2) gave me this job for many years and we collabed in building it up from v1.0 to v2.8.45 (2020 - 2026)
+I thank everyone that helped me. [farag2](https://github.com/farag2) the lead of the Sophia Projects, gave me this job for many years and we collabed in building it up from v1.0 to v2.8.45 (2020 - 2026)
 
 The use of this add on dropped because of the bugs and bothersome updates needed
 to keep this up-to-date.
