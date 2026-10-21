@@ -1,4 +1,4 @@
-# SophiaScriptWrapper - 4.8 - Current Now
+# SophiaScriptWrapper - v2.8.45 - Current Now
 
 This is the final solution files (.sln) for Sophia Script Wrapper.
 
