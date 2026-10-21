@@ -2,7 +2,7 @@
 
 This is the final solution files (.sln) for Sophia Script Wrapper.
 
-It is the GUI add on Wrapper for Sophia Script for Windows of the Sophia Projects to customize and and add more useful features to [Microsoft Windows 10](https://en.wikipedia.org/wiki/Windows_10) and [11](https://en.wikipedia.org/wiki/Windows_11) all editions.
+It is the GUI add on Wrapper for Sophia Script for Windows of the Sophia Projects to customize and and add more useful features to [Microsoft Windows 10](https://en.wikipedia.org/wiki/Windows_10) and [11](https://en.wikipedia.org/wiki/Windows_11) all editions ([LTSC](https://en.wikipedia.org/wiki/Windows_10_editions#Long-Term_Servicing_Channel) and [ARM](https://en.wikipedia.org/wiki/ARM_architecture_family)).
 
 Thanks [Microsoft](https://www.microsoft.com/en-ca) for making [Windows](https://www.microsoft.com/en-ca/windows/?r=1)!
 
