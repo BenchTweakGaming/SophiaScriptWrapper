@@ -2,6 +2,14 @@
 
 This is the final solution files (.sln) for Sophia Script Wrapper.
 
+It is the GUI add on Wrapper for Sophia Script for Windows of the Sophia Projects to customize and and add more useful features to [Microsoft Windows 10](https://en.wikipedia.org/wiki/Windows_10) and [11](https://en.wikipedia.org/wiki/Windows_11) all editions.
+
+Thanks [Microsoft](https://www.microsoft.com/en-ca) for making [Windows](https://www.microsoft.com/en-ca/windows/?r=1)!
+
+I thank [Bill Gates](https://en.wikipedia.org/wiki/Bill_Gates) and [Paul Allen](https://en.wikipedia.org/wiki/Paul_Allen) making Microsoft Windows.
+
+I thank everyone that helped me. [farag2](https://github.com/farag2) gave me this job for many years and we collabed in building it up from v1.0 to v2.8.45 (2020 - 2026)
+
 The use of this add on dropped because of the bugs and bothersome updates needed
 to keep this up-to-date.
 
@@ -11,9 +19,9 @@ to keep this up-to-date.
 
 - Story and Logs [FirstGenProgrammer.com](https://firstgenprogrammer.com/sophia-projects/)
 
-Written in C# and WPF XAML. v1.0 was written in Visual Basics and Windows Forms.
+Written in [C#](https://en.wikipedia.org/wiki/C_Sharp_(programming_language) and [WPF XAML](https://en.wikipedia.org/wiki/Windows_Presentation_Foundation). v1.0 was written in [Visual Basic](https://en.wikipedia.org/wiki/Visual_Basic_(.NET)) and [Windows Forms](https://en.wikipedia.org/wiki/Windows_Forms).
 
-IDE was [Microsoft Visual Studio](https://visualstudio.microsoft.com/) Community 2019 - 2026 
+[IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) was [Microsoft Visual Studio](https://visualstudio.microsoft.com/) Community 2019 - 2026 
 
 NET Framework 4.8
 
