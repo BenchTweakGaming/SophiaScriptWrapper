@@ -19,7 +19,7 @@ to keep this up-to-date.
 
 - Story and Logs [FirstGenProgrammer.com](https://firstgenprogrammer.com/sophia-projects/)
 
-Written in C#[C Sharp](https://en.wikipedia.org/wiki/C_Sharp_(programming_language) and [WPF XAML](https://en.wikipedia.org/wiki/Windows_Presentation_Foundation). v1.0 was written in [Visual Basic](https://en.wikipedia.org/wiki/Visual_Basic_(.NET)) and [Windows Forms](https://en.wikipedia.org/wiki/Windows_Forms).
+Written in [C Sharp](https://en.wikipedia.org/wiki/C_Sharp_(programming_language) and [WPF XAML](https://en.wikipedia.org/wiki/Windows_Presentation_Foundation). v1.0 was written in [Visual Basic](https://en.wikipedia.org/wiki/Visual_Basic_(.NET)) and [Windows Forms](https://en.wikipedia.org/wiki/Windows_Forms).
 
 [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) was [Microsoft Visual Studio](https://visualstudio.microsoft.com/) Community 2019 - 2026 
 
