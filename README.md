@@ -7,7 +7,9 @@ to keep this up-to-date.
 
 For use with: [Sophia Script Wrapper](https://github.com/farag2/Sophia-Script-for-Windows)
 
-How-To and Updates [BenchTweakGaming.com](https://benchtweakgaming.com/sophia-script-wrapper-for-sophia-script-for-windows/) 
+How-To and Updates [BenchTweakGaming.com](https://benchtweakgaming.com/sophia-script-wrapper-for-sophia-script-for-windows/)
+
+Story and Logs [FirstGenProgrammer.com](https://firstgenprogrammer.com/sophia-projects/)
 
 Written in C# and WPF xAML.
 
