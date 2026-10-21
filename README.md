@@ -11,7 +11,7 @@ to keep this up-to-date.
 
 - Story and Logs [FirstGenProgrammer.com](https://firstgenprogrammer.com/sophia-projects/)
 
-Written in C# and WPF XAML. IDE was [Microsoft Visual Studio] (https://visualstudio.microsoft.com/) Community 2019 - 2026 
+Written in C# and WPF XAML. IDE was [Microsoft Visual Studio](https://visualstudio.microsoft.com/) Community 2019 - 2026 
 
 NET Framework 4.8
 
