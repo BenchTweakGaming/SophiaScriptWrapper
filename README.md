@@ -2,7 +2,7 @@
 
 This is the final solution files (.sln) for Sophia Script Wrapper.
 
-It is the GUI add on Wrapper for Sophia Script for Windows of the Sophia Projects to customize and and add more useful features to [Microsoft Windows 10](https://en.wikipedia.org/wiki/Windows_10) and [11](https://en.wikipedia.org/wiki/Windows_11) all editions ([LTSC](https://en.wikipedia.org/wiki/Windows_10_editions#Long-Term_Servicing_Channel) and [ARM](https://en.wikipedia.org/wiki/ARM_architecture_family)).
+It is the GUI add on Wrapper for [Sophia Script for Windows](https://github.com/farag2/Sophia-Script-for-Windows) of the Sophia Projects ([Script](https://github.com/farag2/Sophia-Script-for-Windows) and [SophiApp](https://github.com/Sophia-Community/SophiApp)) to customize and and add more useful features to [Microsoft Windows 10](https://en.wikipedia.org/wiki/Windows_10) and [11](https://en.wikipedia.org/wiki/Windows_11) all editions ([LTSC](https://en.wikipedia.org/wiki/Windows_10_editions#Long-Term_Servicing_Channel) and [ARM](https://en.wikipedia.org/wiki/ARM_architecture_family)).
 
 Thanks [Microsoft](https://www.microsoft.com/en-ca) for making [Windows](https://www.microsoft.com/en-ca/windows/?r=1)!
 
@@ -13,7 +13,7 @@ I thank everyone that helped me. [farag2](https://github.com/farag2) gave me thi
 The use of this add on dropped because of the bugs and bothersome updates needed
 to keep this up-to-date.
 
-- For use with: [Sophia Script Wrapper](https://github.com/farag2/Sophia-Script-for-Windows)
+- For use with: [Sophia Script for Windows](https://github.com/farag2/Sophia-Script-for-Windows)
 
 - How-To and Updates [BenchTweakGaming.com](https://benchtweakgaming.com/sophia-script-wrapper-for-sophia-script-for-windows/)
 
